@@ -1,0 +1,11 @@
+.container{
+    width: 670px;
+    margin: auto;
+}
+form{
+    border: 1px solid black;
+    display: grid;
+      width: 80%;
+  
+     border:1px solid beige;
+}

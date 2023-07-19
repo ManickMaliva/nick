@@ -1,0 +1,33 @@
+.container{
+    width: 600px;
+    margin: auto;
+    height: 550px;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+
+.container input[type="text"], input[type="number"]{
+ width: 80%;
+  
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #dcdada;
+      margin-bottom: 20px;
+      margin-left: 40px;
+}
+
+.container input[type="button"]{
+    width: 20%;
+  
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #f50707;
+      margin-bottom: 20px;
+      margin-left: 40px;
+
+}

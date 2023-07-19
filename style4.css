@@ -1,0 +1,297 @@
+
+*{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: rgb(48, 46, 50);
+            color: white;
+            border: 1px solid #ccc;
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        h1{
+            font-size: 32px;
+            margin: 20px;
+            text-transform: capitalize;
+        }
+
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            transition: 0.7s;
+            margin: 20px;
+            
+
+           
+        }
+
+        ul:last-child{
+            margin-right: 30px;
+        }
+        .logo span{
+           display: none;
+        }
+    
+ form{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgb(233, 230, 230);
+ }
+
+form input[type="text"], input[type="email"]{
+
+     width: 90%;
+        margin-bottom: 20px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-left: 20px;
+
+      display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+label{
+     display:flexbox;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-left: 20px;
+}
+
+
+.tex{
+    width: 90%;
+        margin-bottom: 20px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-left: 20px;
+
+       display: inline-block;
+    box-sizing: border-box;
+   
+}
+
+form h1{
+    text-align: center;
+}
+
+form input[type=submit]{
+    
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    width: 20%;
+    margin: auto;
+    margin-left: 180px;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+
+
+
+
+   
+
+footer{
+    background-color: #ccc;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 400px;
+
+}
+
+
+
+.service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+   margin: 20px 20px 20px 20px;
+
+    width: 95%;
+
+}
+
+.hs{
+    border: 1px solid silver;
+    width: 90%;
+    margin: auto;
+    
+
+
+}
+.b{
+    border: 1px solid silver;
+     box-sizing: border-box;
+     display: block;
+}
+form span{
+    color: red;
+    margin-left: 20px;
+}
+
+
+
+
+
+@media  screen and (max-width: 1300px) {
+
+      header{
+            background-color: rgb(50, 49, 46);
+            color: white;
+            border: 1px solid #ccc;
+            width: 100%;
+        }
+
+.service{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+   
+    
+}
+
+form{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgb(233, 230, 230);
+ }
+
+ form input[type=submit]{
+    
+     font-size: 20px;
+    background-color: blue;
+    color: white;
+    width: 20%;
+    margin: auto;
+    margin-left: 250px;
+    
+}
+    
+}
+@media  screen and (max-width: 700px) {
+
+  header{
+            background-color: rgb(147, 64, 231);
+            color: white;
+            border: 1px solid #ccc;
+            width: 100%;
+        }
+
+.service{
+  
+    width: 90%;
+    margin-right: 20px;
+
+   display: inline-block;
+    box-sizing: border-box;  
+    
+
+}
+
+
+
+
+
+form{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgb(233, 230, 230);
+ }
+    
+
+
+
+form input[type=submit]{
+    
+     font-size: 20px;
+    background-color: blue;
+    color: white;
+    width: 20%;
+    margin: auto;
+    margin-left: 180px;
+    
+}
+
+.im img{
+    height: 100%;
+    margin-top: 30px;
+}
+
+
+  nav{
+            display: grid;
+            justify-content: stretch;
+           }
+            ul{
+                display:grid;
+                justify-content: center;
+                 background-color: rgb(170, 110, 226);
+            overflow: hidden;
+                
+            }
+            
+           .logo span{
+                display: grid;
+                justify-content: end;
+                margin-top: 20px;
+                
+            }
+            .logo{
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+        }
+
+
+
+
+
+
+@media  screen and (max-width: 500px){
+
+form input[type=submit]{
+    
+     font-size: 30px;
+    background-color: blue;
+    color: white;
+    width: 30%;
+    margin: auto;
+    margin-left: 110px;
+}
+
+
+
+}

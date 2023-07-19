@@ -1,0 +1,320 @@
+*{
+   
+}
+.icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+body{
+ margin: 0;
+    padding: 0;
+}
+
+.gras {
+  overflow: hidden;
+ 
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    font-size: 20px;
+    gap: 20px;
+  
+  
+}
+.container{
+    background-color: rgb(67, 67, 67);
+}
+ ul:last-child{
+    margin-right: 30px;
+ }
+
+ form{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgb(233, 230, 230);
+ }
+
+form input[type="text"], input[type="email"]{
+
+     width: 90%;
+        margin-bottom: 20px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-left: 20px;
+
+      display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+label{
+     display:flexbox;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-left: 20px;
+}
+
+
+.tex{
+    width: 90%;
+        margin-bottom: 20px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-left: 20px;
+
+       display: inline-block;
+    box-sizing: border-box;
+   
+}
+
+form h1{
+    text-align: center;
+}
+
+form input[type=button]{
+    
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    width: 20%;
+    margin: auto;
+    margin-left: 180px;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+.logo{
+
+}
+
+nav{
+  
+    
+}
+
+.gra{
+   /* overflow: hidden;*/
+    position: fixed;
+   
+    background-color: rgb(24, 24, 24);
+    /*margin-top: -8px;*/
+    top: 0;
+     width: 100%;
+   
+}
+footer{
+    background-color: #ccc;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 400px;
+
+}
+
+li:hover{
+    background-color: rgb(21, 232, 243);
+}
+
+li{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 14px 16px;
+}
+.service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+   margin: 20px 20px 20px 20px;
+
+    width: 95%;
+
+}
+
+.hs{
+    border: 1px solid silver;
+    width: 90%;
+    margin: auto;
+    
+
+
+}
+.b{
+    border: 1px solid silver;
+     box-sizing: border-box;
+     display: block;
+}
+
+.gra a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+@media  screen and (max-width: 1300px) {
+
+ .gra{
+  position: fixed;
+    
+    background-color: rgb(9, 85, 236);
+  
+    top: 0;
+     width: 100%;
+   
+} 
+
+.service{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+   
+    
+}
+
+form{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgb(233, 230, 230);
+ }
+    
+}
+@media  screen and (max-width: 700px) {
+
+ .gra{
+  position: fixed;
+    
+    background-color: rgb(236, 198, 9);
+  
+    top: 0;
+     width: 100%;
+   
+} 
+
+.service{
+  
+    width: 90%;
+    margin-right: 20px;
+
+   display: inline-block;
+    box-sizing: border-box;  
+    
+
+}
+
+.v{
+    display: none;
+}
+
+form{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgb(233, 230, 230);
+ }
+    
+ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    font-size: 10px;
+    gap: 10px;
+  
+  
+}
+
+ ul:last-child{
+    margin-right:4px;
+ }
+
+
+form input[type=button]{
+    
+     font-size: 20px;
+    background-color: blue;
+    color: white;
+    width: 20%;
+    margin: auto;
+    margin-left: 180px;
+    
+}
+
+.im img{
+    height: 100%;
+    margin-top: 30px;
+}
+
+.im{
+    
+}
+
+@media  screen and (max-width: 500px){
+
+form input[type=button]{
+    
+     font-size: 30px;
+    background-color: blue;
+    color: white;
+    width: 30%;
+    margin: auto;
+    margin-left: 110px;
+}
+
+
+.gra{
+     max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+.gras {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+.gras {
+  display: none;
+}
+
+.gas a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.gas a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ 
+
+
+
+}
+
